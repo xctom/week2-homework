@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
 
+  #routes for GreetController
   get "/greet" => "greet#say_hello"
+
+  #routes for ContactController
+  get "/contact" => "contact#index"
+  get "/contact_submitted" => "contact#submitted"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
