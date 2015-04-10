@@ -1,0 +1,10 @@
+img {
+	width: 100px;
+	height: 100px;
+	border: 2px solid #111111;
+  border-radius: 5px;
+}
+
+body {
+	font-family: sans-serif;
+}

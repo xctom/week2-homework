@@ -7,6 +7,10 @@ Rails.application.routes.draw do
   get "/contact" => "contact#index"
   get "/contact_submitted" => "contact#submitted"
 
+  #routes for RpsController
+  get "/rps" => "rps#index"
+  get "/rps_submitted" => "rps#submitted"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
