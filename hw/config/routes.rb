@@ -11,6 +11,10 @@ Rails.application.routes.draw do
   get "/rps" => "rps#index"
   get "/rps_submitted" => "rps#submitted"
 
+  #routes for GameController
+  get "/dice" => "game#index"
+  get "/dice/roll" => "game#roll"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

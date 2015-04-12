@@ -1,4 +1,7 @@
 <h1>Result</h1>
-<h3>You choose <%= image_tag "#{@user_weapon}.png" %> and computer chooses <%= image_tag "#{@computer_weapon}.png" %></h3>
+<% if @valid %>
+<h3>You choose <%= image_tag "#{@user_weapon}.png" ,:class => "rps_img" %> and computer chooses <%= image_tag "#{@computer_weapon}.png" ,:class => "rps_img" %></h3>
+<% end %>
 <h3><%= @desc %></h3>
 <a href="/rps">Play again</a>
+ 

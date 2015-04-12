@@ -23,7 +23,7 @@ class RpsController < ApplicationController
 
 			else
 
-				@desc = "You lose!"				
+				@desc = "Computer wins!"				
 
 			end
 
