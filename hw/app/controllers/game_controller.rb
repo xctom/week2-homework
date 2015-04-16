@@ -6,7 +6,7 @@ class GameController < ApplicationController
 		@goal = params["point"]
 
 		if @goal
-			if @sum == @goal
+			if @sum == @goal.to_i
 				@desc = "YOU WIN!"
 				@button_txt = "Start Over"
 			elsif @sum == 7
